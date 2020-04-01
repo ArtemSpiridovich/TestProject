@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/TestProject/static/css/main.400fba3d.chunk.css",
+    "main.js": "/TestProject/static/js/main.bed3d606.chunk.js",
+    "main.js.map": "/TestProject/static/js/main.bed3d606.chunk.js.map",
+    "runtime-main.js": "/TestProject/static/js/runtime-main.c73e59df.js",
+    "runtime-main.js.map": "/TestProject/static/js/runtime-main.c73e59df.js.map",
+    "static/js/2.d2b0a7ce.chunk.js": "/TestProject/static/js/2.d2b0a7ce.chunk.js",
+    "static/js/2.d2b0a7ce.chunk.js.map": "/TestProject/static/js/2.d2b0a7ce.chunk.js.map",
+    "index.html": "/TestProject/index.html",
+    "precache-manifest.30b19ce92a193e5f1deb190205a06ef5.js": "/TestProject/precache-manifest.30b19ce92a193e5f1deb190205a06ef5.js",
+    "service-worker.js": "/TestProject/service-worker.js",
+    "static/css/main.400fba3d.chunk.css.map": "/TestProject/static/css/main.400fba3d.chunk.css.map",
+    "static/js/2.d2b0a7ce.chunk.js.LICENSE.txt": "/TestProject/static/js/2.d2b0a7ce.chunk.js.LICENSE.txt",
+    "static/media/image1-min.jpeg": "/TestProject/static/media/image1-min.a560f017.jpeg",
+    "static/media/image2-min.jpg": "/TestProject/static/media/image2-min.7fcb31b9.jpg",
+    "static/media/image3-min.jpeg": "/TestProject/static/media/image3-min.b045ba99.jpeg",
+    "static/media/mainScreen.module.css": "/TestProject/static/media/main-photo-min.9e622a32.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c73e59df.js",
+    "static/js/2.d2b0a7ce.chunk.js",
+    "static/css/main.400fba3d.chunk.css",
+    "static/js/main.bed3d606.chunk.js"
+  ]
+}
