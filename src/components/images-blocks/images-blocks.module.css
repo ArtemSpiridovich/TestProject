@@ -1,0 +1,63 @@
+.content {
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+  background-color: var(--pink);
+}
+
+.context {
+  width: 100%;
+}
+
+.context>h2, .context>p {
+  text-align: center;
+  color: var(--grey);
+}
+
+.context>h2 {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.context>p {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1600px) {
+  .images {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  .context>h2 {
+    font-size: 35px;
+  }
+
+  .context>p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .context>h2 {
+    font-size: 24px;
+  }
+
+  .context>p {
+    font-size: 15px;
+  }
+}
+
+
