@@ -11,7 +11,7 @@ const Header = () => {
   const classForLinks = viewMode ? s.links : s.noLinks;
 
   return (
-    <div className={s.content}>
+    <header className={s.content}>
       <div className='wrapper'>
         <div className={s.context1}>
           <a>HOME</a>
@@ -33,7 +33,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

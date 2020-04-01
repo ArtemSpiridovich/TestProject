@@ -10,18 +10,18 @@
   width: 100%;
 }
 
-.context>h2, .context>p {
+.context > h2, .context > p {
   text-align: center;
   color: var(--grey);
 }
 
-.context>h2 {
+.context > h2 {
   margin-bottom: 10px;
   font-size: 48px;
   font-weight: 800;
 }
 
-.context>p {
+.context > p {
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: 400;
@@ -34,6 +34,17 @@
   justify-content: space-between;
 }
 
+.image {
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+}
+
+
 @media screen and (max-width: 1600px) {
   .images {
     justify-content: center;
@@ -41,23 +52,29 @@
 }
 
 @media screen and (max-width: 1365px) {
-  .context>h2 {
+  .context > h2 {
     font-size: 35px;
   }
 
-  .context>p {
+  .context > p {
     font-size: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .context>h2 {
+  .context > h2 {
     font-size: 24px;
   }
 
-  .context>p {
+  .context > p {
     font-size: 15px;
   }
 }
 
+@media screen and (max-width: 560px) {
+  .image {
+    width: calc(100vw - 60px);
+    height: calc(100vw - 60px);
+  }
+}
 
