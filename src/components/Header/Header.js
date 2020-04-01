@@ -14,26 +14,22 @@ const Header = () => {
     <div className={s.content}>
       <div className='wrapper'>
         <div className={s.context1}>
-          <a href="/">HOME</a>
-          <a href="/">ABOUT</a>
-          <div className={s.img}>
-            <LogoSvg/>
-          </div>
-          <a href="/">SERVICE</a>
-          <a href="/">CONTACT</a>
+          <a>HOME</a>
+          <a>ABOUT</a>
+            <LogoSvg w='300px' f={`var(--white)`}/>
+          <a>SERVICE</a>
+          <a>CONTACT</a>
         </div>
         <div className={s.context2}>
-          <div className={s.img}>
-            <LogoSvg/>
-          </div>
+            <LogoSvg w={`calc(100vw/2.6)`} f={`var(--white)`}/>
           <button onClick={() => setTimeout(() => changeViewMode(!viewMode), 0)} className={`${s.but} ${viewMode ? `${s.buttonClose}` : `${s.button}`}`}>
               <div></div><div></div><div></div>
           </button>
           <div className={`${s.lin} ${classForLinks}`}>
-            <a href="/">HOME</a>
-            <a href="/">ABOUT</a>
-            <a href="/">SERVICE</a>
-            <a href="/">CONTACT</a>
+            <a>HOME</a>
+            <a>ABOUT</a>
+            <a>SERVICE</a>
+            <a>CONTACT</a>
           </div>
         </div>
       </div>

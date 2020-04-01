@@ -3,7 +3,9 @@ import s from "./Img.module.css";
 
 const Img = ({src}) => {
   return (
-    <div style={{backgroundImage: `url(${src})`}} className={s.image}/>
+    <div className={s.image}>
+      <img src={src}/>
+    </div>
   );
 }
 

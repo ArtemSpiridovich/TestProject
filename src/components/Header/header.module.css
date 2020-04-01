@@ -143,12 +143,6 @@
   transition: all .4s linear;
 }
 
-.img {
-  max-width: 300px;
-  width: 100%;
-  fill: var(--white);
-}
-
 @media screen and (max-width: 1365px) {
   .content {
     max-height: 70px;
@@ -164,21 +158,12 @@
     justify-content: space-between;
     align-items: center;
   }
-  .img {
-    width: calc(100vw/3);
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 767px) {
-  .img {
-    width: calc(100vw/2.5);
-    height: auto;
-  }
-
   .but {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   .but div {
@@ -186,11 +171,15 @@
   }
 
   .buttonClose div:nth-child(1) {
-    transform: rotate(-45deg) translateY(7px) translateX(-7px);
+    transform: rotate(-45deg) translateY(5px) translateX(-5px);
   }
 
   .buttonClose div:nth-child(2) {
-    transform: rotate(45deg) translateY(-7px) translateX(-7px);
+    transform: rotate(45deg) translateY(-5px) translateX(-5px);
+  }
+
+  .lin a {
+    font-size: 1.3rem;
   }
 }
 
